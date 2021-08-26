@@ -1,5 +1,7 @@
 module Simulanigans
 
-greet() = print("Hello World!")
+export Simulation, run!
+
+using Oceananigans: Simulation, run!
 
 end # module

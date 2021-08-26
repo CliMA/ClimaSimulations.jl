@@ -2,3 +2,6 @@ name = "Simulanigans"
 uuid = "a3795d8a-a648-4cfa-a2c1-0ee5cd798573"
 authors = ["Gregory Wagner <wagner.greg@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Oceananigans = "9e8cae18-63c1-5223-a75c-80ca9d6e9a09"
