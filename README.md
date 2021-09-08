@@ -1,3 +1,3 @@
-# Simulanigans.jl
+# ClimaSimulations.jl
 
-Simulations of Earth system models and Earth system model components
+Simulations of Earth system models and Earth system model components.
