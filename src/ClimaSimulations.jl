@@ -1,4 +1,4 @@
-module Simulanigans
+module ClimaSimulations
 
 export Simulation, run!
 
