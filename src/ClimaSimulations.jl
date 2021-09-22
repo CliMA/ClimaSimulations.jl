@@ -1,7 +1,13 @@
 module ClimaSimulations
 
-export Simulation, run!
-
-using Oceananigans: Simulation, run!, time_step!
+using Oceananigans:
+    prettytime,
+    Simulation,
+    run!,
+    time_step!,
+    evaluate_diagnostics!,
+    evaluate_callbacks!,
+    evaluate_output_writers!,
+    @stopwatch
 
 end # module
