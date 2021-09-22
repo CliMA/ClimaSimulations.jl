@@ -8,6 +8,10 @@ using Oceananigans:
     evaluate_diagnostics!,
     evaluate_callbacks!,
     evaluate_output_writers!,
-    @stopwatch
+    @stopwatch,
+    Callback,
+    TimeInterval,
+    IterationInterval,
+    WallTimeInterval
 
 end # module
