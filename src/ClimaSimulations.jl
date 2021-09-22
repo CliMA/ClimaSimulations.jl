@@ -1,7 +1,12 @@
 module ClimaSimulations
 
-using Oceananigans:
+using Oceananigans.Utils:
     prettytime,
+    TimeInterval,
+    IterationInterval,
+    WallTimeInterval
+
+using Oceananigans.Simulations:
     Simulation,
     run!,
     time_step!,
@@ -9,9 +14,6 @@ using Oceananigans:
     evaluate_callbacks!,
     evaluate_output_writers!,
     @stopwatch,
-    Callback,
-    TimeInterval,
-    IterationInterval,
-    WallTimeInterval
+    Callback
 
 end # module
