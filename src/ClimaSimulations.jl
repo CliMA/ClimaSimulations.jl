@@ -14,6 +14,9 @@ using Oceananigans.Simulations:
     evaluate_callbacks!,
     evaluate_output_writers!,
     @stopwatch,
-    Callback
+    Callback,
+    iteration_limit_exceeded,
+    stop_time_exceeded,
+    wall_time_limit_exceeded
 
 end # module
